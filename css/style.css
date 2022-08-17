@@ -1,0 +1,123 @@
+.game {
+    width: 600px;
+    height: 230px;
+    background-color: #699bd8;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+
+    /* Bear */
+.bear_brown {
+    width: 140px;
+    height: 120px;
+    background-image: url(/img/bear_brown.png);
+    background-size: 140px 120px;
+    position: relative;
+    top: 140px;
+    animation: bearMov 2s infinite ease-in;
+}
+
+
+.bear_gray {
+    width: 140px;
+    height: 120px;
+    background-image: url(/img/bear_gray.png);
+    background-size: 140px 120px;
+    position: relative;
+    top: 140px;
+    animation: bearMov 2s infinite ease-in;
+}
+
+.bear_white {
+    width: 140px;
+    height: 120px;
+    background-image: url(/img/bear_white.png);
+    background-size: 140px 120px;
+    position: relative;
+    top: 140px;
+    animation: bearMov 2s infinite ease-in;
+}
+
+
+    /* Sweets */
+.candy {
+    width: 40px;
+    height: 30px;
+    background-image: url(/img/candy.png);
+    background-size: 40px 30px;
+    position: relative;
+    top: 80px;
+    left: 580px;
+    animation: candyMov 2s infinite ease-out;
+}
+
+.cake {
+    width: 40px;
+    height: 30px;
+    background-image: url(/img/cake.png);
+    background-size: 40px 30px;
+    position: relative;
+    top: 80px;
+    left: 580px;
+    animation: candyMov 2s infinite ease-out; 
+} 
+
+.ice_cream {
+    width: 20px;
+    height: 40px;
+    background-image: url(/img/ice_cream.png);
+    background-size: 20px 40px;
+    position: relative;
+    top: 80px;
+    left: 580px;
+    animation: candyMov 2s infinite ease-out; 
+} 
+
+@keyframes candyMov {
+    0% {left: 580px;}
+    100% {left:90px;}
+}
+
+@keyframes bearMov {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(20deg);}
+} 
+
+table {
+    line-height: 40px; 
+    font-size: 20px;
+    position: relative;
+    margin: auto;   
+    border-collapse: collapse;
+    border-bottom: 1px solid #aabcfe;
+}
+th {
+    border-right: 1px solid #aabcfe;
+    border-left: 1px solid #aabcfe;
+    border-top: 1px solid #aabcfe;
+    border-bottom: 1px solid #aabcfe;
+    text-align: center;
+
+ }
+
+ td {
+    background: #e8edff;
+    border-right: 1px solid #aabcfe;
+    border-left: 1px solid #aabcfe;
+    color: #669;
+    padding: 8px;
+    text-align: left;
+ }
+
+
+caption {
+     color: #6f55b8;
+     text-shadow: 5px 5px 15px rgb(195, 0, 255);
+     font-size: 25px;
+     letter-spacing: 5px;
+}
+
+thead {
+    color: #6f55b8;
+    background-color: #bcb5e956;
+}
