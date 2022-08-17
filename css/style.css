@@ -10,7 +10,7 @@
 .bear_brown {
     width: 140px;
     height: 120px;
-    background-image: url(/img/bear_brown.png);
+    background-image: url(/Bear/img/bear_brown.png);
     background-size: 140px 120px;
     position: relative;
     top: 140px;
@@ -21,7 +21,7 @@
 .bear_gray {
     width: 140px;
     height: 120px;
-    background-image: url(/img/bear_gray.png);
+    background-image: url(/Bear/img/bear_gray.png);
     background-size: 140px 120px;
     position: relative;
     top: 140px;
@@ -31,7 +31,7 @@
 .bear_white {
     width: 140px;
     height: 120px;
-    background-image: url(/img/bear_white.png);
+    background-image: url(/Bear/img/bear_white.png);
     background-size: 140px 120px;
     position: relative;
     top: 140px;
@@ -43,7 +43,7 @@
 .candy {
     width: 40px;
     height: 30px;
-    background-image: url(/img/candy.png);
+    background-image: url(/Bear/img/candy.png);
     background-size: 40px 30px;
     position: relative;
     top: 80px;
@@ -54,7 +54,7 @@
 .cake {
     width: 40px;
     height: 30px;
-    background-image: url(/img/cake.png);
+    background-image: url(/Bear/img/cake.png);
     background-size: 40px 30px;
     position: relative;
     top: 80px;
@@ -65,7 +65,7 @@
 .ice_cream {
     width: 20px;
     height: 40px;
-    background-image: url(/img/ice_cream.png);
+    background-image: url(/Bear/img/ice_cream.png);
     background-size: 20px 40px;
     position: relative;
     top: 80px;
